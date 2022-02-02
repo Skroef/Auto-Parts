@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ca4d51da-5a5a-4139-bc7c-28d5ec9c3521": {
+      "ProjectGuid": "ca4d51da-5a5a-4139-bc7c-28d5ec9c3521",
+      "DisplayName": "AutoPartsAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
