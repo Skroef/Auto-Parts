@@ -1,0 +1,15 @@
+IF  NOT EXISTS (SELECT * FROM sys.objects 
+WHERE object_id = OBJECT_ID(N'[dbo].[Role]') AND type in (N'U'))
+
+BEGIN
+CREATE TABLE [dbo].[Role](
+    Id int IDENTITY(1,1) NOT NULL,
+    [Name] varchar(50) NOT NULL,
+ CONSTRAINT [PK_RoleId] PRIMARY KEY CLUSTERED 
+(
+    [Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON)
+) ON [PRIMARY]
+
+
+END
