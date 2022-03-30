@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace AutoPartsAPI.Controllers
+namespace WebApplication1.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -12,7 +12,6 @@ namespace AutoPartsAPI.Controllers
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
-       //private readonly Context _context;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
@@ -20,9 +19,15 @@ namespace AutoPartsAPI.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
-        public void Get()
+        public IEnumerable<WeatherForecast> Get()
         {
-            
+            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            {
+                Date = DateTime.Now.AddDays(index),
+                TemperatureC = Random.Shared.Next(-20, 55),
+                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+            })
+            .ToArray();
         }
     }
 }
