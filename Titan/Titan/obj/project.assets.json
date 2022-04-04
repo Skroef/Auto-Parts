@@ -701,19 +701,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\trevo\\.nuget\\packages\\": {}
+    "C:\\Users\\Ninno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Titan\\Titan\\Titan.csproj",
+      "projectUniqueName": "C:\\Projects\\Auto-Parts\\Titan\\Titan\\Titan.csproj",
       "projectName": "Titan",
-      "projectPath": "C:\\Projects\\Titan\\Titan\\Titan.csproj",
-      "packagesPath": "C:\\Users\\trevo\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Titan\\Titan\\obj\\",
+      "projectPath": "C:\\Projects\\Auto-Parts\\Titan\\Titan\\Titan.csproj",
+      "packagesPath": "C:\\Users\\Ninno\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\Auto-Parts\\Titan\\Titan\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\trevo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ninno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -727,8 +727,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projects\\Titan\\Betelguese\\Betelguese.csproj": {
-              "projectPath": "C:\\Projects\\Titan\\Betelguese\\Betelguese.csproj"
+            "C:\\Projects\\Auto-Parts\\Titan\\Betelguese\\Betelguese.csproj": {
+              "projectPath": "C:\\Projects\\Auto-Parts\\Titan\\Betelguese\\Betelguese.csproj"
             }
           }
         }
